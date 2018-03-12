@@ -1,0 +1,16 @@
+.jumbotron{
+	text-align: center;
+}
+#burger{
+	height: 300px;
+}
+
+.btn{
+	height: 35px;
+}
+
+#burger-entry{
+	text-align: center;
+	margin-bottom: 50px;
+}
+

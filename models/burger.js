@@ -12,7 +12,7 @@ var burger={
 		orm.insertOne("burgers", cols, vals, function(res){
 			cb(res);
 		});
-	}
+	},
 
 	updateOne: function(objColVals, condition, cb){
 		orm.updateOne("burgers", objColVals, condition, function(res){
