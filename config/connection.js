@@ -1,5 +1,5 @@
 // Set up MySQL connection.
-require('env').config();
+require('dotenv').config();
 var mysql = require("mysql");
 
 
