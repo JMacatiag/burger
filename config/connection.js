@@ -1,11 +1,13 @@
 // Set up MySQL connection.
+require('env').config();
 var mysql = require("mysql");
 
+
 var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "password",
-  database: "burgers_db"
+  host: process.env.HOST,
+  user: process.env.USER,
+  password: process.env.PASSWORD,
+  database: process.env.DATABASE
 });
 
 // Make connection.
